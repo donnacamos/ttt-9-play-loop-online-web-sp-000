@@ -39,7 +39,7 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
  def play(board)
   turn = 0 
-  while turn < 10 
+  until turn == 9 
   puts turn(board)
  turn += 1 
  
